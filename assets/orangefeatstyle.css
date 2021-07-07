@@ -1,0 +1,58 @@
+
+#ofwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+#ofWrapper h1{
+    color:rgb(239,152,24);
+    font-size: 3rem;
+    width:fit-content;
+
+}
+
+#ofWrapper .buttongroupwrapper{
+    display:flex;
+    padding:20px;
+    width:fit-content;
+
+}
+
+#ofWrapper .buttongroup{
+    padding:40px;
+
+}
+
+#ofWrapper #featbutton{
+    border:none;
+    padding:30px;
+    background-color:rgb(239,152,24);
+    border-radius: 50%;
+    font-size: 1rem;
+    width:200px;
+    height:200px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(75, 75, 75);;
+
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
